@@ -1,0 +1,25 @@
+.conversion-history {
+  margin: 16px auto;
+}
+
+.conversion-history__actions {
+  visibility: hidden;
+}
+
+.conversion-history__row:hover .conversion-history__actions {
+  visibility: visible;
+}
+
+
+.conversion-history__action {
+  margin-right: 8px;
+}
+
+.conversion-history__action._delete {
+  color: var(--color-warn);
+}
+
+.conversion-history__placeholder {
+  text-align: center;
+  color: var(--text-dimmed);
+}

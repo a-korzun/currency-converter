@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #009688;
+  --color-accent: #94C720;
+  --color-warn: #C70D38;
+  --color-default-text: #404040;
+  --color-muted: #8D8D8D;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-default-text);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.table {
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .2);
+  border-radius: 4px;
+}
+
+.table th {
+  color: var(--color-muted);
+}
+
+.table tr {
+  border-bottom: 1px solid var(--color-muted);
+}
+
+.table tr:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.table th,
+.table td {
+  padding: 8px 16px;
+}
